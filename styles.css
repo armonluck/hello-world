@@ -1,4 +1,17 @@
 body {
-    background-color: yellow; 
-    color: black
+    background-color: white; 
+    color: black; 
+    margin: 10px;
+    padding: 15px
+}
+
+header {
+    background-color: 
+    color: black;
+    border: 5px solid black; 
+    padding: 5px;
+}
+
+footer {
+   color: red; 
 }
