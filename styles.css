@@ -1,17 +1,24 @@
 body {
-    background-color: white; 
+    background-color: yellow; 
     color: black; 
     margin: 10px;
     padding: 15px
 }
 
 header {
-    background-color: 
+    background-color: white;
     color: black;
-    border: 5px solid black; 
-    padding: 5px;
+    border: 10px solid black; 
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    border: 5px solid red;
+    float: left;
 }
 
 footer {
-   color: red; 
+   color: black; 
 }
