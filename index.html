@@ -6,15 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Code Fellows Class 4, 5, & 6 Project</title>
 	<link rel="stylesheet" href="styles.css">
+	<script>
+		let userName = prompt("What is your name?");
+		document.write("Greetings, " + userName + " welcome to my page!")
+		console.log('User entered: ' + userName);
+	</script>
 	<script> src="app.js"</script>
 </head>
 <body>
+
 	<header>
 		<h1>HTML for Dummies</h1>
-
 	</header>
 	
 	<main>
+		<script>
+			let userAnswer = prompt('Do you like to code?'); 
+			if(userAnswer == 'yes'){
+				document.write("You like to code? So do I!");
+			} else {
+				document.write('It is not for everybody')
+			} 
+		</script>
 		<section>
 			<p>What is HTML? HTML (HyperText Markup Language)is a markup language used to create the bones, frame, structure, or scaffold of a website. HTML is mostly seen on front-end development of a website. As noted above, HTML is NOT a programming language but is instead a *markup language*
 			</p>
@@ -35,6 +48,8 @@
 					<a href="https://github.com/armonluck">Armon's GitHub</a>
 				</nav>
 			</p>
+
 	</footer>
+
 </body>
 </html>
