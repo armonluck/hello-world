@@ -1,11 +1,19 @@
+function getName (){
+    let userName = prompt("What is your name?");
+        document.write("Greetings, " + userName + " welcome to my page!")
+        console.log('User entered: ' + userName);
+}
 
-let userName = prompt("What is your name?");
-	document.write("Greetings, " + userName + " welcome to my page!")
-	console.log('User entered: ' + userName);
+getName();
 
-let userAnswer = prompt('Do you like to code?'); 
-    if(userAnswer == 'yes'){
-     document.write("You like to code? So do I!");
-    } else {
-     document.write('It is not for everybody')
-    } 
+function getAnswer (){
+    let userAnswer = prompt(' Do you like to code?'); 
+        if(userAnswer.toLowerCase ()== 'yes'){
+        document.write(' You like to code? So do I!');
+        } else if(userAnswer.toLowerCase() == 'no'){
+        document.write(' Coding is not for everybody')
+        } else {
+            document.write(' That is not what I expected you to say...')
+        }
+}
+
