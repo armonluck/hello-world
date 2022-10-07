@@ -17,3 +17,13 @@ function getAnswer (){
         }
 }
 
+function count(){
+    let guess = prompt('How many letters are in HTML?');
+    if (guess == '4'){
+        document.write(' Great job, you can count quite well!')
+    } else {
+        guess = prompt('Try again...');
+    }
+}
+
+count();
